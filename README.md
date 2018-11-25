@@ -5,7 +5,7 @@ Currently working parts:
 * Shopify server is connected to ERPnext, when an order creates in Shopify it will synched to ERPNext.
 * Shopify server is connected to Social medias (Facebook, Pinterest)
 
-# How to make it to work this app.
+# How to make this app work.
 1)  Register/Specify your remotes url in file named `proxyconfig.json` (this proxy is created to solve CORS problems in server side)
 2)  Create a private app in Shopify store and use its app id and app secret in shopify-erpnext service
 3)  Create app in facebook and use its id and token in shopify-socialmedia service
