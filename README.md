@@ -1,3 +1,16 @@
+
+# api-connector
+This app is under development.
+Currently working parts:
+* Shopify server is connected to ERPnext, when an order creates in Shopify it will synched to ERPNext.
+* Shopify server is connected to Social medias (Facebook, Pinterest)
+
+# How to make it to work this app.
+1)  Register/Specify your remotes url in file named `proxyconfig.json` (this proxy is created to solve CORS problems in server side)
+2)  Create a private app in Shopify store and use its app id and app secret in shopify-erpnext service
+3)  Create app in facebook and use its id and token in shopify-socialmedia service
+
+
 # MyProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.2.
@@ -25,4 +38,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# api-connector
